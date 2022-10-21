@@ -3,6 +3,37 @@ entries:
   eck-operator:
   - apiVersion: v2
     appVersion: 2.2.0
+    created: "2022-10-21T09:29:34.344219633Z"
+    dependencies:
+    - condition: installCRDs
+      name: eck-operator-crds
+      repository: ""
+      version: 2.2.0
+    description: 'A Helm chart for deploying the Elastic Cloud on Kubernetes (ECK)
+      operator: the official Kubernetes operator for orchestrating Elasticsearch,
+      Kibana, APM Server, Enterprise Search, and Beats.'
+    digest: e09c74719a2ad66dd5ba20f730577c3c1962d648ae6d239ee4d787e927d6f03c
+    home: https://github.com/elastic/cloud-on-k8s
+    icon: https://helm.elastic.co/icons/eck.png
+    keywords:
+    - Elasticsearch
+    - Kibana
+    - APM Server
+    - Beats
+    - Enterprise Search
+    - Elastic Stack
+    - Operator
+    kubeVersion: '>=1.12.0-0'
+    maintainers:
+    - email: eck@elastic.co
+      name: Elastic
+    name: eck-operator
+    type: application
+    urls:
+    - https://github.com/QingCloudAppcenter/ECK-operator-chart/releases/download/eck-operator-2.2.1/eck-operator-2.2.1.tgz
+    version: 2.2.1
+  - apiVersion: v2
+    appVersion: 2.2.0
     created: "2022-10-17T03:38:49.836867316Z"
     dependencies:
     - condition: installCRDs
@@ -32,4 +63,4 @@ entries:
     urls:
     - https://github.com/QingCloudAppcenter/ECK-operator-chart/releases/download/eck-operator-2.2.0/eck-operator-2.2.0.tgz
     version: 2.2.0
-generated: "2022-10-17T03:38:49.836880216Z"
+generated: "2022-10-21T09:29:34.344235034Z"
