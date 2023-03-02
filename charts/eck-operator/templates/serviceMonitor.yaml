@@ -6,6 +6,7 @@ metadata:
   name: {{ include "eck-operator.fullname" . }}
   namespace: {{ .Release.Namespace }}
   labels:
+    app.kubernetes.io/vendor: kubesphere
     {{- include "eck-operator.labels" . | nindent 4 }}
 spec:
   endpoints:
